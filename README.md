@@ -24,13 +24,12 @@ assuming you have
 ext.js and otherExt.js following the following pattern
 
 ```javascript
-module.exports = function (h){
- return {
-   table:'users',
-   columns:{},
-   relations:{}
- };
-};
+module.exports = {
+  priority: 999, // the higher priority is, the fastest the extension will be loaded,
+  extension: function(sh){
+    // do something on sh instance
+  }
+}
 ```
 
 then use **ship-hold-extension-loader**
