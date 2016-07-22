@@ -1,0 +1,39 @@
+{
+  "name": "ship-hold-extension-loader",
+  "version": "1.0.0",
+  "description": "loads ship-hold extension based on convention",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zorro-del-caribe/ship-hold-extension-loader.git"
+  },
+  "keywords": [
+    "ship-hold",
+    "database",
+    "extension",
+    "plugin",
+    "postgres"
+  ],
+  "engines": {
+    "nodes": ">=6.0.0"
+  },
+  "author": "Laurent Renard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zorro-del-caribe/ship-hold-extension-loader/issues"
+  },
+  "homepage": "https://github.com/zorro-del-caribe/ship-hold-extension-loader#readme",
+  "dependencies": {
+    "app-root-path": "^1.2.1"
+  },
+  "devDependencies": {
+    "ship-hold": "^1.0.1",
+    "tape": "^4.6.0"
+  }
+}
